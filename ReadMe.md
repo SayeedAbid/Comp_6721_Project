@@ -6,7 +6,8 @@
    * Installation
    * Procedure
      * Data Cleaning
-     * Data Visualization<br>
+     * Data Visualization
+     * Model Train and Evaluate <br>
 ## Introduction<br>
 This project includes several files, and the files are listed below:
 * Python Code
@@ -27,9 +28,11 @@ This program has the following system and library requirements:
 * Windows/Linux operating system
 * Any standard IDE (VS Code, PyCharm etc.)
 * Python 3.7 or above
-* numpy
-* matplotlib
+* Pytorch
+* NumPy
+* Matplotlib
 * Scikitlearn
+* Seaborn
 * OpenCV<br>
 ### Installation<br>
 If you need to install Python in your system, please visit this [site](https://www.python.org/). For installing the standard Python libraries, please visit this [site](https://docs.python.org/3/library/index.html).<br>
@@ -38,3 +41,5 @@ If you need to install Python in your system, please visit this [site](https://w
 To run the Python scripts of the data cleaning and analysis part, please open the file named data_analysis.py in your IDE. Then, you will see that the code is divided into different parts for different operations. Keep the useful imports part and the part of the code related to your desired operation, and comment on the rest of the code. In this way, for each operation you want to perform, just keep the imports and corresponding code uncommented and comment out everything else, and then just run the code. Please make sure to modify the data source according to your specified folder where mentioned.<br>
 #### Data Visualization<br>
 For the Python script on data visualization, please just open the visualization.py script in your IDE, then modify the data source and run the file. You will get the desired results.
+#### Model Train and Evaluate
+To train the CNN network and Evaluate, simply run the given .py files. The main_model.py file is our main model, which gives us the best results. The variant1.py and variant2.py are the two variants of our model. By running the files, it will first train the network on the specified model, then generate the confusion matrix and the Macro and Micro scores. The "Scores" folder has all our trained scores for the project.
