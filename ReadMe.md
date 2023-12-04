@@ -42,4 +42,5 @@ To run the Python scripts of the data cleaning and analysis part, please open th
 #### Data Visualization<br>
 For the Python script on data visualization, please just open the visualization.py script in your IDE, then modify the data source and run the file. You will get the desired results.
 #### Model Train and Evaluate
-To train the CNN network and Evaluate, simply run the given .py files. The main_model.py file is our main model, which gives us the best results. The variant1.py and variant2.py are the two variants of our model. By running the files, it will first train the network on the specified model, then generate the confusion matrix and the Macro and Micro scores. The "Scores" folder has all our trained scores for the project.
+To train the CNN network and Evaluate, simply run the given .py files. The main_model.py file is our main model, which gives us the best results. The variant1.py and variant2.py are the two variants of our model. By running the files, it will first train the network on the specified model, then generate the confusion matrix and the Macro and Micro scores. The "Scores" folder has all our trained scores for the project. <br>
+To evaluate the program on a saved model, run the saved_model.py file; it can load the saved models and classify single images based on training scores.
